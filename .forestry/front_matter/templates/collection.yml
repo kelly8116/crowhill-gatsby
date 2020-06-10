@@ -7,5 +7,10 @@ fields:
   config:
     required: false
   label: Title
+- name: hero_image
+  type: file
+  config:
+    maxSize: 64
+  label: Hero Image
 pages:
 - src/content/collection/salvaged-series-2.md
