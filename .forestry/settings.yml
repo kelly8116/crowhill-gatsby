@@ -6,7 +6,7 @@ webhook_url:
 sections:
 - type: directory
   path: src/content/collection
-  label: Posts
+  label: Collection
   create: documents
   match: "**/*"
   templates:
