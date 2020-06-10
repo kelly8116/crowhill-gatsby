@@ -7,3 +7,5 @@ fields:
   config:
     required: false
   label: Title
+pages:
+- src/content/collection/salvaged-series-2.md
