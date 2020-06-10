@@ -5,12 +5,12 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: src/content/posts
+  path: src/content/collection
   label: Posts
   create: documents
   match: "**/*"
   templates:
-  - blog
+  - collection
 upload_dir: static/uploads
 public_path: "/static/uploads"
 front_matter_path: ''
